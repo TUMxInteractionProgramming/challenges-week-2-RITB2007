@@ -1,0 +1,114 @@
+/* colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+ /* Global----------------------------------------------- */
+ /* ----------------------------------------------------- */
+        * {
+            /* #font #faces */
+            font-family: 'Roboto', sans-serif;
+            /* Remove ugly spacing between all components */
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            /* #colorful #background */
+            background-color: #F5F5F5;
+        }
+            /* links to w3w locations need to be uppercase,; black text color; transform text to uppercase */
+        button, a {
+            /* #colourful #plusfive */
+            color: black;
+            /* #font capital #letters */
+            text-transform: uppercase;
+            text-align: center;
+        }
+/* App bar-----------------------------------------------*/
+/* ----------------------------------------------------- */
+        h1 {
+            /* #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+/* Channels list-----------------------------------------*/
+/* ----------------------------------------------------- */
+        h2 {
+            /* #colorful #channelandchat */
+            background-color: white;
+        }
+        ul {
+            list-style-type: none;
+            background-color:white;
+        }
+        li {
+            font-size: 16px;
+            padding: 16px;
+            height: 24px;
+            border-bottom: 1px solid #F5F5F5;
+        }
+        li.selected {
+            color: #3F51B5;
+            border-left: 4px solid #3F51B5;
+        }
+        li img{
+            vertical-align: middle;
+        }
+/* Tab bar-----------------------------------------------*/
+/* ----------------------------------------------------- */
+        #tabbar{
+            background-color: white;
+        }
+        #tabbar button {
+            /* center the text inside the buttons */
+            text-align: center;
+            background-color: white;
+            border: none;
+            font-size: 13px;
+            width: 33%;
+            height: 72px;
+            padding-bottom: 16px;
+            margin: auto;
+        }
+        #tabbar button.selected {
+            color: #3F51B5;
+            border-bottom: 4px solid #3F51B5;
+        }
+        #tabbar span {
+            display: block;
+            padding-top: 4px;
+        }
+/* Message-----------------------------------------------*/
+/* ----------------------------------------------------- */
+        .message {
+            /* message container width 80%; margin-bottom 8px */
+            width: 80%;
+            margin-bottom: 8px;
+            margin-left: 2.5%;
+        }
+        .own-message {
+            margin-left: 17.5%;
+        }
+        .message h3 {
+            /* message metadata font-size medium */
+            font-size: medium;
+        }
+        .message p {
+            /* message text background white, padding 16 px */
+            background-color: white;
+            padding: 16px;
+        }
+        .message button {
+            /* message button background CDDC39 */
+            background-color: #CDDC39;
+        }
+        .message.em {
+            /* message emphasised information font size larger; font style normal */
+            font-size: larger;
+            font-style: normal;
+        }
